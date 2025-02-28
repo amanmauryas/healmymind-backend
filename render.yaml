@@ -2,13 +2,13 @@ services:
   - type: web
     name: healmymind-backend
     runtime: python
-    buildCommand: chmod +x build.sh && ./build.sh
+    plan: free
+    pythonVersion: 3.9.18
+    buildCommand: pip install -r requirements.txt && python manage.py collectstatic --noinput
     startCommand: gunicorn healmymind.wsgi:application --bind 0.0.0.0:$PORT
     envVars:
       - key: MONGODB_URI
         sync: false
-      - key: PYTHON_VERSION
-        value: "3.9.0"
       - key: DEBUG
         value: "false"
       - key: ALLOWED_HOSTS
@@ -17,3 +17,4 @@ services:
         value: "https://healmymind.vercel.app,http://localhost:3000"
       - key: SECRET_KEY
         generateValue: true
+    autoDeploy: true
