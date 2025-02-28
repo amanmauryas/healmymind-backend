@@ -1,0 +1,84 @@
+MIT License
+
+Copyright (c) 2024 healmymind.ai
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Note: This license applies to the software code only. The mental health tests,
+assessments, and related content may be subject to additional terms and
+conditions. Please refer to the documentation for more information about the
+usage of these materials.
+
+Third-Party Components:
+
+1. Django
+   - License: BSD-3-Clause
+   - Copyright (c) Django Software Foundation and individual contributors
+   - https://github.com/django/django/blob/main/LICENSE
+
+2. Django REST Framework
+   - License: BSD-3-Clause
+   - Copyright (c) 2011-present, Encode OSS Ltd.
+   - https://github.com/encode/django-rest-framework/blob/master/LICENSE.md
+
+3. MongoDB
+   - License: Server Side Public License (SSPL)
+   - Copyright (c) MongoDB, Inc.
+   - https://www.mongodb.com/licensing/server-side-public-license
+
+4. Redis
+   - License: BSD-3-Clause
+   - Copyright (c) 2006-2020, Salvatore Sanfilippo
+   - https://redis.io/topics/license
+
+5. Celery
+   - License: BSD-3-Clause
+   - Copyright (c) 2015-2019 Ask Solem & contributors
+   - https://github.com/celery/celery/blob/master/LICENSE
+
+6. OpenAI API
+   - Usage subject to OpenAI's terms of service
+   - https://openai.com/policies/terms-of-use
+
+For the complete list of third-party software used in this project and their
+respective licenses, please see the documentation.
+
+Mental Health Disclaimer:
+
+This software is not intended to be a substitute for professional medical advice,
+diagnosis, or treatment. Always seek the advice of your physician or other
+qualified health provider with any questions you may have regarding a medical
+condition. Never disregard professional medical advice or delay in seeking it
+because of something you have read or interpreted from this software.
+
+If you're thinking about suicide or experiencing a mental health crisis, please
+call or text 988 to reach the 988 Suicide & Crisis Lifeline. The Lifeline
+provides 24/7, free and confidential support.
+
+Privacy Notice:
+
+This software may collect and process personal data, including mental health
+information. Users should be informed about data collection and processing
+practices, and appropriate consent should be obtained in accordance with
+applicable privacy laws and regulations.
+
+Contributions:
+
+By contributing to this project, you agree that your contributions will be
+licensed under its MIT License.
